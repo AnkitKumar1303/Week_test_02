@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+</head>
+<body>
+    <fieldset>
+        <legend>Personal Detail</legend>
+        <form action="" method="">
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname"/>
+            <br>
+            <br>
+            <label for="middlename">Middle Name:</label>
+            <input type="text" id="middlename"/>
+            <br>
+            <br>
+            <label for="lasttname">Last Name:</label>
+            <input type="text" id="lastname"/>
+            <br>
+            <br>
+            <label for="course">Course</label>
+            <select id="course">
+                <option value="bca">BCA</option>
+                <option value="bba">BBA</option>
+                <option value="b.tech">B.Tech</option>
+                <option value="mba">MBA</option>
+                <option value="mca">MCA</option>
+                <option value="m.tech">M.Tech</option>
+            </select>
+            <br>
+            <br>
+
+            <label>Gender:</label>
+            <br>
+            <input type="radio" value="male" name="gender" id="male">
+            <label for="male">Male</label>
+            <br>
+            <input type="radio" value="female" name="gender" id="female">
+            <label for="female">Female</label>
+            <br>
+            <input type="radio" value="other" name="gender" id="other">
+            <label for="other">Others</label>
+            <br>
+            <br>
+            <label for="birthdaytime">DOB</label>
+            <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+            <br>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <br>
+            <br>
+            <label>Address</label>
+            <br>
+            <textarea name="message" rows="10" cols="30"></textarea>
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <br>
+            <br>
+            <label for="pwd">Password:</label>
+            <input type="password" id="pwd" name="pwd">
+            <br>
+            <br>
+            <label for="pwd">Re-Type Password:</label>
+            <input type="password" id="pwd" name="pwd">
+            <br>
+            <br>
+            
+            <input type="checkbox" id="terms" name="term" value="termsandcond">
+            <label for="terms">Agree to the terms and condition</label>
+            <br>
+            <br>
+            <label for="myfile">Select files:</label>
+            <input type="file" id="myfile" name="myfile" multiple>
+            <br>
+            <br>
+            
+            <label for="favcolor">Select your favorite color:</label>
+            <input type="color" id="favcolor" name="favcolor" value="#000000">
+            <br>
+            <br>
+            <input type="reset">
+            <input type="submit">
+
+        </form>
+    </fieldset>
+</body>
+</html>
